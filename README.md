@@ -1,4 +1,8 @@
-# Git Notes for local work
+
+#  Git Notes 
+
+## Working with git locally
+
 - `git init`: initialize current folder as a git repository
 - '`git clone <URL>`: brings the git repo from <URL> to current folder
 - `git status`: tells us what we need to know about our repository
@@ -15,13 +19,12 @@
 - `git diff <HASH>`: comapres HEAD with the commit in <HASH>
 
 - `git restore --source <HASH OR HEAD~> <FILE>`: restore file to <HASH OR HEAD~>
-	-`git checkout <HASH OR HEAD~> <FILE>`: restores file to <HASH OR HEAD~>
+	- `git checkout <HASH OR HEAD~> <FILE>`: restores file to <HASH OR HEAD~>
 		- `git checkout <HASH OR HEAD~>`: if you forget the file, you end up in detached head state
 		- `git checkout main`: go back to main
 		- `git switch main`: go back to main
 
-  # working with remotes
-  
+## Working with remotes  
 
 - `git remote add <NAME> <URL>`: adds the <URL> as a remote with the name  <NAME>
 	- `<NAME> is by convention called origin`
