@@ -1,4 +1,4 @@
-# Git Notes
+# Git Notes for local work
 - `git init`: initialize current folder as a git repository
 - '`git clone <URL>`: brings the git repo from <URL> to current folder
 - `git status`: tells us what we need to know about our repository
@@ -20,7 +20,7 @@
 		- `git checkout main`: go back to main
 		- `git switch main`: go back to main
 
-  # remotes
+  # working with remotes
   
 
 - `git remote add <NAME> <URL>`: adds the <URL> as a remote with the name  <NAME>
